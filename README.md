@@ -4,6 +4,8 @@
 
 [minimv_vs_clifford_comparison.ipynb](minimv_vs_clifford_comparison.ipynb) checks the custom geometric algebra implementation against the Python clifford package. The study requires only a small subset of geometric algebra operations, and this independent comparison checks their numerical consistency.
 
+Generated inspection copies of the code are also provided for inspection as .py files.
+
 Open either notebook in [Google Colab](https://colab.research.google.com/) and select Runtime → Run all. The notebooks handle the required dependency installation and the main study generates its own synthetic data. Use separate Colab runtimes for the two notebooks so that installing clifford for verification does not change the algebra implementation selected by the main study. Figures, tables and numerical results are generated when the code runs.
 
 The supplementary videos are available in the [media folder](media/).
